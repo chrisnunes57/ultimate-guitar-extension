@@ -1,0 +1,25 @@
+{
+    "description": "Modify some behavior on the UG platform",
+    "manifest_version": 2,
+    "name": "Ultimate Guitar Helper",
+    "version": "1.0",
+    "homepage_url": "https://github.com/chrisnunes57/ultimate-guitar-extension",
+    "icons": {
+      "48": "logo.png"
+    },
+  
+    "permissions": [
+      "webRequest", "webRequestBlocking", "https://*.ultimate-guitar.com/*"
+    ],
+  
+    "background": {
+      "scripts": ["background.js"]
+    },
+  
+    "browser_specific_settings": {
+      "gecko": {
+        "strict_min_version": "57.0a1"
+      }
+    }
+  
+  }
